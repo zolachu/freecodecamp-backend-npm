@@ -1,16 +1,20 @@
 {
 	"name": "fcc-learn-npm-package-json",
+	"author": "zola",
+	"description": "something awesome!",
+	"license": "MIT",
+	"keywords":["freecodecamp", "zola", "awesome"],
+	"version": "1",
 	"dependencies": {
-		"express": "^4.14.0",
-		"nodemon": "^3.0.1"
+	  "express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+	  "start": "node server.js"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	},
-	"author": "zola chuluunbaatar"
-}
+	  "type": "git",
+	  "url": "https://idontknow/todo.git"
+	}
+  }
+  
